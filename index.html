@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>4 en linea</title>
+</head>
+<body>
+    <div class="test">Jugador 1,Cambie el color por defecto
+        <button  onclick="colorVerde()">Verde</button>
+        <button  onclick="colorAmarillo()">Amarillo</button>
+        <button  onclick="colorVioleta()">Violeta</button>
+    </div>
+
+    <div class="test2">Jugador 2,Cambie el color por defecto
+        <button  onclick="colorNegro()">Negro</button>
+        <button  onclick="colorChocolate()">Chocolate</button>
+        <button  onclick="colorGris()">Gris</button>
+    </div>
+
+    <div class="test3">Cambie el color del tablero por defecto
+        <button  onclick="colorRosa()">Rosa</button>
+        <button  onclick="colorMarron()">Marron</button>
+        <button  onclick="colorDefault()">Default</button>
+    </div>
+
+    <h1 class="title">Cuatro En Linea</h1>
+    <div class="container">
+        <h3 class="player1">Jugador 1</h3>
+        <span class="current-1" id="c-1" >TU TURNO</span>
+        <h3 id="result"></h3>
+        <div class="grid" >
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div class="taken"></div>
+            <div class="taken"></div>
+            <div class="taken"></div>
+            <div class="taken"></div>
+            <div class="taken"></div>
+            <div class="taken"></div>
+            <div class="taken"></div>
+        </div>
+
+        <h3 class="player2">Jugador 2</h3>
+        <span  id="c-2" >TU TURNO</span>
+
+    </div>
+    <button class="reset" onclick="resetGame()">Reset Game</button>
+    <script src="app.js"></script>
+</body>
+</html>

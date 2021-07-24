@@ -1,0 +1,171 @@
+body{
+
+    background-image: url("img/net2.png");
+    background-size: cover;
+}
+.test, .test2, .test3{
+    margin-left: 450px;
+    font-size: 20px;
+    font-weight: bold;
+} 
+
+.container{
+    margin-top: 100px;
+    margin-left: 150px;
+    display: grid;
+    grid-template-areas: "left main right";
+}
+
+.player1{
+    display: inline-block;
+    text-align: center;
+    background-color: red;
+    grid-area: left;
+    width: 200px;
+    height: 50px;
+    font-size: 40px;
+}
+
+.player2{
+    display: inline-block;
+    text-align: center;
+    background-color: blue;
+    grid-area: right;
+    width: 200px;
+    height: 50px;
+    font-size: 40px;
+}
+
+.current-1{
+    width: 200px;
+    background: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+.current-2{
+    width: 200px;
+    background: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+.grid{
+    border: 10px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 294px;
+    grid-area: main;
+}
+.grid-rosa{
+    border: 10px solid hotpink;
+    display: flex;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 294px;
+    grid-area: main;
+}
+
+.grid-marron{
+    border: 10px solid maroon;
+    display: flex;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 294px;
+    grid-area: main;
+}
+
+.grid div{
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.grid-rosa div{
+    height: 40px;
+    width: 40px;
+    border: 1px solid hotpink;
+    border-radius: 20px;
+}
+
+.grid-marron div{
+    height: 40px;
+    width: 40px;
+    border: 1px solid maroon;
+    border-radius: 20px;
+}
+
+.grid .taken, .grid-rosa .taken, .grid-marron .taken{
+    border: 1px solid transparent;
+}
+
+.player-one{
+    background-color: red;
+    border-radius: 20px;
+}
+
+.player-one-verde{
+    background-color: green;
+    border-radius: 20px;
+}
+
+.player-one-amarillo{
+    background-color: yellow;
+    border-radius: 20px;
+}
+
+.player-one-violeta{
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+
+.player-two{
+    background-color: blue;
+    border-radius: 20px;
+}
+
+.player-two-negro{
+    background-color: black;
+    border-radius: 20px;
+}
+
+.player-two-chocolate{
+    background-color: chocolate;
+    border-radius: 20px;
+}
+
+.player-two-gris{
+    background-color: grey;
+    border-radius: 20px;
+}
+
+.title{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.reset{
+    display: block;
+    text-align: center;
+    margin: 50px auto;
+    background-color: rgb(32, 26, 65);
+    color: aliceblue;
+    border: none;
+    font-size: 20px;
+}
+
+.reset:hover{
+    background-color: rgb(79, 56, 100);
+    font-size: 30px;
+    transition: ease-out 2s;
+}
+
+span{
+    color: azure;
+}
+
+#result{
+    font-size: 35px;
+}
