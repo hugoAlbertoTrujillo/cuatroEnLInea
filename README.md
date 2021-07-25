@@ -7,9 +7,9 @@ Para ver el juego intente darle click en la imagen o siga este enlace:
 
 ### Modo de Juego
 * En la cabecera del juego aparecen botones para cambiar el color de las fichas que desee cada jugador, esta acción solo la podrá hacer al iniciar el juego; inmediatamente después aparecen los botones para cambiar el color del tablero de juego, este color lo puede cambiar a gusto en cualquier punto de la partida.
-
+<center>
 ![](https://github.com/hugoAlbertoTrujillo/cuatroEnLInea/raw/master/img/cabecera.png)
-
+</center>
 * Una vez seleccionado el color, por parte de cada jugador, deberá hacer click en la columna donde desee poner su ficha. La interfaz le guiará para saber quien tiene el turno y en caso de ganar, también le indicará quién es el ganador.
 
 ![](https://github.com/hugoAlbertoTrujillo/cuatroEnLInea/raw/master/img/tablero.png)
