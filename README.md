@@ -11,9 +11,14 @@ Para ver el juego intente darle click en la imagen o siga este enlace:
 ![](https://github.com/hugoAlbertoTrujillo/cuatroEnLInea/raw/master/img/cabecera.png)
 
 * Una vez seleccionado el color, por parte de cada jugador, deberá hacer click en la columna donde desee poner su ficha. La interfaz le guiará para saber quien tiene el turno y en caso de ganar, también le indicará quién es el ganador.
- 
+
+![](https://github.com/hugoAlbertoTrujillo/cuatroEnLInea/raw/master/img/tablero.png)
+
 * Si desea volver a jugar solo debe darle click al boton RESET GAME en la parte inferior del tablero y tendra nuevamente las opciones de custumización de color y el tablero se limpiara.
  
 * En caso de producirse un empate, la interfaz le comunicara con un el título correspondiente.
+
+![](https://github.com/hugoAlbertoTrujillo/cuatroEnLInea/raw/master/img/empate.png)
+
 
 [CuatroEnLinea]: <https://hugoalbertotrujillo.github.io/cuatroEnLInea/>
