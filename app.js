@@ -247,16 +247,16 @@ document.addEventListener('DOMContentLoaded', () => {
         if(stopGame) {
             if(win === 1){
                 // result.style.color = 'red';
-                result.innerHTML = 'Player one wins';
+                result.innerHTML = 'Jugador uno Gana!';
                 score1++;
-                displayPlayer1.innerHTML = 'Player 1: ' + "(^.^)";
+                displayPlayer1.innerHTML = 'Jugador 1: ' + "(^.^)";
                 stopGame = false;
                 
             } else if(win === 2) {
                 score2++;
-                displayPlayer2.innerHTML = 'Player 2: ' + "(^.^)";
+                displayPlayer2.innerHTML = 'Jugador 2: ' + "(^.^)";
                 // result.style.color = 'blue';
-                result.innerHTML = 'Player two wins';
+                result.innerHTML = 'Jugador dos Gana!';
                 stopGame = false;
             }
         }
@@ -270,7 +270,7 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         if (contador === 49){
             result.style.color = 'green';
-            result.innerHTML = 'No one wins';
+            result.innerHTML = 'Empate, nadie Gana (O.O)';
         }
     }
 
